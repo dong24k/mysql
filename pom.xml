@@ -22,6 +22,14 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- 必须引入的包 ShardingSphere -->
+		<dependency>
+			<groupId>org.apache.shardingsphere</groupId>
+			<artifactId>shardingsphere-jdbc-core</artifactId>
+			<version>5.2.0</version>
+		</dependency>
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
